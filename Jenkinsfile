@@ -16,8 +16,8 @@ pipeline {
          {
            steps
 		{
-		sh "divisional.sh"
-		sh "factorial.sh"
+		sh "sh divisional.sh"
+		sh "sh factorial.sh"
 		}
 	 }
    }
